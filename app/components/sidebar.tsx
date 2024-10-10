@@ -228,8 +228,12 @@ export function SideBar(props: { className?: string }) {
       <SideBarHeader
         title="Aimoment"
         subTitle={
-          <a href={AIMOMENT_STORE} target="_blank" rel="noopener noreferrer">
-            请到 Aimoment Store 购买 API KEY
+          <a
+            href={Locale.Aimomnet.subStoreUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {Locale.Aimomnet.subTitle}
           </a>
         }
         logo={<ChatGptIcon />}

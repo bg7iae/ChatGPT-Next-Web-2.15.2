@@ -12,6 +12,10 @@ const en: LocaleType = {
       ? "Invalid API Key, please check it in [Settings](/#/settings) page."
       : "Unauthorized access, please enter access code in [auth](/#/auth) page, or enter your OpenAI API Key.",
   },
+  Aimomnet: {
+    subTitle: "Buy an API KEY",
+    subStoreUrl: "https://onepay.hiaihiai.com",
+  },
   Auth: {
     Title: "Need Access Code",
     Tips: "Please enter access code below",

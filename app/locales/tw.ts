@@ -10,7 +10,10 @@ const tw = {
       ? "偵測到無效的 API Key，請前往[設定](/#/settings)頁面檢查 API Key 是否設定正確。"
       : "存取密碼不正確或尚未填寫，請前往[登入](/#/auth)頁面輸入正確的存取密碼，或者在[設定](/#/settings)頁面填入你自己的 OpenAI API Key。",
   },
-
+  Aimomnet: {
+    subTitle: "點擊此處 url 購買 API KEY",
+    subStoreUrl: "https://onepay.hiaihiai.com",
+  },
   Auth: {
     Title: "需要密碼",
     Tips: "管理員開啟了密碼驗證，請在下方填入存取密碼",

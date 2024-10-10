@@ -11,6 +11,10 @@ const cn = {
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
       : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
   },
+  Aimomnet: {
+    subTitle: "请到 Aimoment Store 购买 API Key",
+    subStoreUrl: "https://store.biggor999.com",
+  },
   Auth: {
     Title: "需要密码",
     Tips: "管理员开启了密码验证，请在下方填入访问码",
