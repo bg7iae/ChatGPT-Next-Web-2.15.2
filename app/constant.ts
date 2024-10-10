@@ -1,8 +1,8 @@
 import path from "path";
 
-export const OWNER = "ChatGPTNextWeb";
-export const REPO = "ChatGPT-Next-Web";
-export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
+export const OWNER = "bg7iae";
+export const REPO = "ChatGPT-Next-Web-2.15.2";
+export const REPO_URL = `https://www.biggor999.com`;
 export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/NextChat-Awesome-Plugins`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
@@ -279,7 +279,7 @@ const openaiModels = [
   "gpt-4-1106-preview",
   "dall-e-3",
   "o1-mini",
-  "o1-preview"
+  "o1-preview",
 ];
 
 const googleModels = [
