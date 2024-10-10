@@ -25,6 +25,7 @@ import {
   Path,
   PLUGINS,
   REPO_URL,
+  AIMOMENT_STORE,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -227,12 +228,8 @@ export function SideBar(props: { className?: string }) {
       <SideBarHeader
         title="Aimoment"
         subTitle={
-          <a
-            href="https://www.biggor999.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            请到 Aimoment Store 购买API KEY
+          <a href={AIMOMENT_STORE} target="_blank" rel="noopener noreferrer">
+            请到 Aimoment Store 购买 API KEY
           </a>
         }
         logo={<ChatGptIcon />}

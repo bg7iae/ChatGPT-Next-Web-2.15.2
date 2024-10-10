@@ -3,6 +3,7 @@ import path from "path";
 export const OWNER = "bg7iae";
 export const REPO = "ChatGPT-Next-Web-2.15.2";
 export const REPO_URL = `https://www.biggor999.com`;
+export const AIMOMENT_STORE = "https://store.biggor999.com";
 export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/NextChat-Awesome-Plugins`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
