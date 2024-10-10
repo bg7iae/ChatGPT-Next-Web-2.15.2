@@ -225,8 +225,16 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
+        title="Aimoment"
+        subTitle={
+          <a
+            href="https://www.biggor999.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            请到 Aimoment Store 购买API KEY
+          </a>
+        }
         logo={<ChatGptIcon />}
       >
         <div className={styles["sidebar-header-bar"]}>
