@@ -3,6 +3,8 @@
 
 <h1 align="center">NextChat</h1>
 
+<h2 align="center">NextChat商业化之后，从2.15.2之后的版本开始内置了大量引流措施，影响私有部署的用户体验，因此我拉了V2.15.2版本出来给自己用，有需要的朋友也可以拿去</h2>
+
 ワンクリックで無料であなた専用の ChatGPT ウェブアプリをデプロイ。GPT3、GPT4 & Gemini Pro モデルをサポート。
 
 [企業版](#企業版) / [デモ](https://chat-gpt-next-web.vercel.app/) / [フィードバック](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [Discordに参加](https://discord.gg/zrhvHCr79N)

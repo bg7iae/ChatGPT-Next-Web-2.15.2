@@ -6,6 +6,8 @@
 
 <h1 align="center">NextChat (ChatGPT Next Web)</h1>
 
+<h2 align="center">NextChat商业化之后，从2.15.2之后的版本开始内置了大量引流措施，影响私有部署的用户体验，因此我拉了V2.15.2版本出来给自己用，有需要的朋友也可以拿去</h2>
+
 English / [简体中文](./README_CN.md)
 
 One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 & Gemini Pro support.
