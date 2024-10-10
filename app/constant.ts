@@ -3,7 +3,17 @@ import path from "path";
 export const OWNER = "bg7iae";
 export const REPO = "ChatGPT-Next-Web-2.15.2";
 export const REPO_URL = `https://www.biggor999.com`;
+export const AIMOMENT_BASE_URL = "https://www.biggor999.com";
 export const AIMOMENT_STORE = "https://store.biggor999.com";
+export const AIMOMENT_STORE_CN_PACKAGE = "https://store.biggor999.com/buy/14";
+export const AIMOMENT_STORE_CN_API = "https://store.biggor999.com/buy/15";
+export const AIMOMENT_STORE_TW = "https://onepay.hiaihiai.com";
+export const AIMOMENT_STORE_EN = "https://onepay.hiaihiai.com";
+export const AIMOMENT_GCODE = "https://www.biggor999.com/gcode";
+export const AIMOMENT_X = "https://x.biggor999.com";
+export const AIMOMENT_API = "https://newapi.maxuhe.com";
+export const WOTO_URL = "https://www.woto.cn";
+
 export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/NextChat-Awesome-Plugins`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;

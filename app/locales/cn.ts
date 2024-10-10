@@ -1,6 +1,13 @@
 import { ShortcutKeyModal } from "../components/chat";
 import { getClientConfig } from "../config/client";
 import { SubmitKey } from "../store/config";
+import {
+  AIMOMENT_GCODE,
+  AIMOMENT_STORE_CN_API,
+  AIMOMENT_STORE_CN_PACKAGE,
+  AIMOMENT_X,
+  WOTO_URL,
+} from "../constant";
 
 const isApp = !!getClientConfig()?.isApp;
 
@@ -8,12 +15,22 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
+      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。或者<a href='" +
+        AIMOMENT_STORE_CN_PACKAGE +
+        "' target='_blank' rel='noopener noreferrer'>点击购买</a>"
       : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
   },
   Aimomnet: {
-    subTitle: "请到 Aimoment Store 购买 API Key",
-    subStoreUrl: "https://store.biggor999.com",
+    subTitle1: "购买包月套餐",
+    subStoreUrl1: AIMOMENT_STORE_CN_PACKAGE,
+    subTitle2: "购买API KEY",
+    subStoreUrl2: AIMOMENT_STORE_CN_API,
+    subTitle3: "维基解密",
+    subStoreUrl3: AIMOMENT_X,
+    subTitle4: "二维码生成器",
+    subStoreUrl4: AIMOMENT_GCODE,
+    subTitle5: "买对讲机",
+    subStoreUrl5: WOTO_URL,
   },
   Auth: {
     Title: "需要密码",

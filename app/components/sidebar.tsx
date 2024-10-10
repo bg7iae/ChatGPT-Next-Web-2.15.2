@@ -18,6 +18,7 @@ import Locale from "../locales";
 import { useAppConfig, useChatStore } from "../store";
 
 import {
+  AIMOMENT_BASE_URL,
   DEFAULT_SIDEBAR_WIDTH,
   MAX_SIDEBAR_WIDTH,
   MIN_SIDEBAR_WIDTH,
@@ -25,7 +26,6 @@ import {
   Path,
   PLUGINS,
   REPO_URL,
-  AIMOMENT_STORE,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -228,13 +228,53 @@ export function SideBar(props: { className?: string }) {
       <SideBarHeader
         title="Aimoment"
         subTitle={
-          <a
-            href={Locale.Aimomnet.subStoreUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {Locale.Aimomnet.subTitle}
-          </a>
+          <div>
+            <p>
+              <a
+                href={Locale.Aimomnet.subStoreUrl1}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {Locale.Aimomnet.subTitle1}
+              </a>
+            </p>
+            <p>
+              <a
+                href={Locale.Aimomnet.subStoreUrl2}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {Locale.Aimomnet.subTitle2}
+              </a>
+            </p>
+            <p>
+              <a
+                href={Locale.Aimomnet.subStoreUrl3}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {Locale.Aimomnet.subTitle3}
+              </a>
+            </p>
+            <p>
+              <a
+                href={Locale.Aimomnet.subStoreUrl4}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {Locale.Aimomnet.subTitle4}
+              </a>
+            </p>
+            <p>
+              <a
+                href={Locale.Aimomnet.subStoreUrl5}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {Locale.Aimomnet.subTitle5}
+              </a>
+            </p>
+          </div>
         }
         logo={<ChatGptIcon />}
       >
@@ -314,7 +354,11 @@ export function SideBar(props: { className?: string }) {
               </Link>
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
+              <a
+                href={AIMOMENT_BASE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <IconButton
                   aria={Locale.Export.MessageFromChatGPT}
                   icon={<GithubIcon />}
