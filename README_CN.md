@@ -27,7 +27,7 @@
 - **私有部署**：企业级私有部署，支持各类主流私有云部署，确保数据安全和隐私保护
 - **持续更新**：提供多模态、智能体等前沿能力持续更新升级服务，常用常新、持续先进
 
-企业版咨询: **business@nextchat.dev**
+购买API KEY请联系
 
 <img width="300" src="https://github.com/user-attachments/assets/3daeb7b6-ab63-4542-9141-2e4a12c80601">
 
