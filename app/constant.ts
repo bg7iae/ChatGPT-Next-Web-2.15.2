@@ -5,10 +5,14 @@ export const REPO = "ChatGPT-Next-Web-2.15.2";
 export const REPO_URL = `https://www.biggor999.com`;
 export const AIMOMENT_BASE_URL = "https://www.biggor999.com";
 export const AIMOMENT_STORE = "https://store.biggor999.com";
+
 export const AIMOMENT_STORE_CN_PACKAGE = "https://store.biggor999.com/buy/14";
+export const AIMOMENT_STORE_EN_PACKAGE = "https://www.anmody.com";
 export const AIMOMENT_STORE_CN_API = "https://store.biggor999.com/buy/15";
-export const AIMOMENT_STORE_TW = "https://onepay.hiaihiai.com";
-export const AIMOMENT_STORE_EN = "https://onepay.hiaihiai.com";
+export const AIMOMENT_STORE_EN_API = "https://www.anmody.com/feedback";
+
+export const AIMOMENT_STORE_TW = "https://www.anmody.com";
+export const AIMOMENT_STORE_EN = "https://www.anmody.com";
 export const AIMOMENT_GCODE = "https://www.biggor999.com/gcode";
 export const AIMOMENT_X = "https://x.biggor999.com";
 export const AIMOMENT_API = "https://newapi.maxuhe.com";
