@@ -145,11 +145,7 @@ export function SideBarContainer(props: {
     <div
       className={`${styles.sidebar} ${className} ${
         shouldNarrow && styles["narrow-sidebar"]
-      }`}
-      style={{
-        // #3016 disable transition on ios mobile screen
-        transition: isMobileScreen && isIOSMobile ? "none" : undefined,
-      }}
+      } ${isMobileScreen && isIOSMobile ? styles["no-transition"] : ""}`}
     >
       {children}
       <div
@@ -358,6 +354,7 @@ export function SideBar(props: { className?: string }) {
                 href={AIMOMENT_BASE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Aimoment"
               >
                 <IconButton
                   aria={Locale.Export.MessageFromChatGPT}
