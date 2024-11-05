@@ -2,6 +2,7 @@ import { getClientConfig } from "../config/client";
 import { SubmitKey } from "../store/config";
 import { LocaleType } from "./index";
 import type { PartialLocaleType } from "./index";
+import { AIMOMENT_STORE_EN_PACKAGE, AIMOMENT_STORE_EN_API } from "../constant";
 
 // if you are adding a new translation, please use PartialLocaleType instead of LocaleType
 
@@ -12,6 +13,18 @@ const sk: PartialLocaleType = {
     Unauthorized: isApp
       ? "Neplatný API kľúč, prosím skontrolujte ho na stránke [Nastavenia](/#/settings)."
       : "Neoprávnený prístup, prosím zadajte prístupový kód na stránke [auth](/#/auth), alebo zadajte váš OpenAI API kľúč.",
+  },
+  Aimomnet: {
+    subTitle1: "Subscribe to ChatGPT Plus",
+    subStoreUrl1: AIMOMENT_STORE_EN_PACKAGE,
+    subTitle2: "Buy an API KEY",
+    subStoreUrl2: AIMOMENT_STORE_EN_API,
+    subTitle3: "",
+    subStoreUrl3: "",
+    subTitle4: "",
+    subStoreUrl4: "",
+    subTitle5: "",
+    subStoreUrl5: "",
   },
   Auth: {
     Title: "Potrebný prístupový kód",

@@ -1,6 +1,7 @@
 import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
+import { AIMOMENT_STORE_EN_PACKAGE, AIMOMENT_STORE_EN_API } from "../constant";
 
 const isApp = !!getClientConfig()?.isApp;
 
@@ -10,6 +11,18 @@ const it: PartialLocaleType = {
     Unauthorized: isApp
       ? "API Key non valido rilevato. Vai alla pagina [Impostazioni](/#/settings) per controllare se l'API Key è configurata correttamente."
       : "La password di accesso è errata o mancante. Vai alla pagina [Login](/#/auth) per inserire la password corretta o inserisci la tua API Key OpenAI nella pagina [Impostazioni](/#/settings).",
+  },
+  Aimomnet: {
+    subTitle1: "Subscribe to ChatGPT Plus",
+    subStoreUrl1: AIMOMENT_STORE_EN_PACKAGE,
+    subTitle2: "Buy an API KEY",
+    subStoreUrl2: AIMOMENT_STORE_EN_API,
+    subTitle3: "",
+    subStoreUrl3: "",
+    subTitle4: "",
+    subStoreUrl4: "",
+    subTitle5: "",
+    subStoreUrl5: "",
   },
   Auth: {
     Title: "Password richiesta",

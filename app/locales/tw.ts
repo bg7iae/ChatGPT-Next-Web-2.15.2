@@ -12,7 +12,7 @@ const tw = {
   },
   Aimomnet: {
     subTitle: "點擊此處 url 購買 API KEY",
-    subStoreUrl: "https://onepay.hiaihiai.com",
+    subStoreUrl: "https://www.anmody.com",
   },
   Auth: {
     Title: "需要密碼",

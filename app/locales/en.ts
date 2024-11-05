@@ -1,7 +1,7 @@
 import { getClientConfig } from "../config/client";
 import { SubmitKey } from "../store/config";
 import { LocaleType } from "./index";
-
+import { AIMOMENT_STORE_EN_PACKAGE, AIMOMENT_STORE_EN_API } from "../constant";
 // if you are adding a new translation, please use PartialLocaleType instead of LocaleType
 
 const isApp = !!getClientConfig()?.isApp;
@@ -13,8 +13,16 @@ const en: LocaleType = {
       : "Unauthorized access, please enter access code in [auth](/#/auth) page, or enter your OpenAI API Key.",
   },
   Aimomnet: {
-    subTitle: "Buy an API KEY",
-    subStoreUrl: "https://onepay.hiaihiai.com",
+    subTitle1: "Subscribe to ChatGPT Plus",
+    subStoreUrl1: AIMOMENT_STORE_EN_PACKAGE,
+    subTitle2: "Buy an API KEY",
+    subStoreUrl2: AIMOMENT_STORE_EN_API,
+    subTitle3: "",
+    subStoreUrl3: "",
+    subTitle4: "",
+    subStoreUrl4: "",
+    subTitle5: "",
+    subStoreUrl5: "",
   },
   Auth: {
     Title: "Need Access Code",

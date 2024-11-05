@@ -1,6 +1,7 @@
 import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
+import { AIMOMENT_STORE_EN_PACKAGE, AIMOMENT_STORE_EN_API } from "../constant";
 
 const isApp = !!getClientConfig()?.isApp;
 
@@ -10,6 +11,18 @@ const tr: PartialLocaleType = {
     Unauthorized: isApp
       ? "Geçersiz API Anahtarı tespit edildi, lütfen API Anahtarını doğru şekilde yapılandırmak için [Ayarlar](/#/settings) sayfasına gidin."
       : "Erişim şifresi yanlış veya boş, lütfen doğru erişim şifresini girmek için [Giriş](/#/auth) sayfasına gidin veya kendi OpenAI API Anahtarınızı [Ayarlar](/#/settings) sayfasına girin.",
+  },
+  Aimomnet: {
+    subTitle1: "Subscribe to ChatGPT Plus",
+    subStoreUrl1: AIMOMENT_STORE_EN_PACKAGE,
+    subTitle2: "Buy an API KEY",
+    subStoreUrl2: AIMOMENT_STORE_EN_API,
+    subTitle3: "",
+    subStoreUrl3: "",
+    subTitle4: "",
+    subStoreUrl4: "",
+    subTitle5: "",
+    subStoreUrl5: "",
   },
   Auth: {
     Title: "Şifre Gerekli",

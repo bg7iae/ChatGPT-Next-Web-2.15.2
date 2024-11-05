@@ -1,6 +1,7 @@
 import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
+import { AIMOMENT_STORE_EN_PACKAGE, AIMOMENT_STORE_EN_API } from "../constant";
 
 const isApp = !!getClientConfig()?.isApp;
 
@@ -10,6 +11,18 @@ const no: PartialLocaleType = {
     Unauthorized: isApp
       ? "Ugyldig API-nøkkel oppdaget. Gå til [innstillinger](/#/settings) for å sjekke om API-nøkkelen er riktig konfigurert."
       : "Adgangskoden er feil eller tom. Gå til [innlogging](/#/auth) for å oppgi riktig adgangskode, eller fyll inn din egen OpenAI API-nøkkel på [innstillinger](/#/settings) siden.",
+  },
+  Aimomnet: {
+    subTitle1: "Subscribe to ChatGPT Plus",
+    subStoreUrl1: AIMOMENT_STORE_EN_PACKAGE,
+    subTitle2: "Buy an API KEY",
+    subStoreUrl2: AIMOMENT_STORE_EN_API,
+    subTitle3: "",
+    subStoreUrl3: "",
+    subTitle4: "",
+    subStoreUrl4: "",
+    subTitle5: "",
+    subStoreUrl5: "",
   },
   Auth: {
     Title: "Passord påkrevd",

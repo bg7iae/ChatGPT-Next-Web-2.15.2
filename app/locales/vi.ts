@@ -1,6 +1,7 @@
 import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
+import { AIMOMENT_STORE_EN_PACKAGE, AIMOMENT_STORE_EN_API } from "../constant";
 
 const isApp = !!getClientConfig()?.isApp;
 
@@ -10,6 +11,18 @@ const vi: PartialLocaleType = {
     Unauthorized: isApp
       ? "Phát hiện khóa API không hợp lệ, vui lòng truy cập trang [Cài đặt](/#/settings) để kiểm tra xem khóa API có được cấu hình chính xác không."
       : "Mật khẩu truy cập không đúng hoặc để trống, vui lòng truy cập trang [Đăng nhập](/#/auth) để nhập mật khẩu truy cập chính xác, hoặc điền khóa API OpenAI của bạn vào trang [Cài đặt](/#/settings).",
+  },
+  Aimomnet: {
+    subTitle1: "Subscribe to ChatGPT Plus",
+    subStoreUrl1: AIMOMENT_STORE_EN_PACKAGE,
+    subTitle2: "Buy an API KEY",
+    subStoreUrl2: AIMOMENT_STORE_EN_API,
+    subTitle3: "",
+    subStoreUrl3: "",
+    subTitle4: "",
+    subStoreUrl4: "",
+    subTitle5: "",
+    subStoreUrl5: "",
   },
   Auth: {
     Title: "Cần mật khẩu",

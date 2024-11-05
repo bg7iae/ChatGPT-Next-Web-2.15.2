@@ -1,6 +1,7 @@
 import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
+import { AIMOMENT_STORE_EN_PACKAGE, AIMOMENT_STORE_EN_API } from "../constant";
 
 const isApp = !!getClientConfig()?.isApp;
 
@@ -10,6 +11,18 @@ const id: PartialLocaleType = {
     Unauthorized: isApp
       ? "API Key tidak valid terdeteksi, silakan periksa apakah API Key telah dikonfigurasi dengan benar di halaman [Pengaturan](/#/settings)."
       : "Kata sandi akses tidak benar atau kosong, silakan masukkan kata sandi akses yang benar di halaman [Masuk](/#/auth), atau masukkan OpenAI API Key Anda di halaman [Pengaturan](/#/settings).",
+  },
+  Aimomnet: {
+    subTitle1: "Subscribe to ChatGPT Plus",
+    subStoreUrl1: AIMOMENT_STORE_EN_PACKAGE,
+    subTitle2: "Buy an API KEY",
+    subStoreUrl2: AIMOMENT_STORE_EN_API,
+    subTitle3: "",
+    subStoreUrl3: "",
+    subTitle4: "",
+    subStoreUrl4: "",
+    subTitle5: "",
+    subStoreUrl5: "",
   },
   Auth: {
     Title: "Kebutuhan Kata Sandi",

@@ -1,6 +1,7 @@
 import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
+import { AIMOMENT_STORE_EN_PACKAGE, AIMOMENT_STORE_EN_API } from "../constant";
 
 const isApp = !!getClientConfig()?.isApp;
 
@@ -10,6 +11,18 @@ const bn: PartialLocaleType = {
     Unauthorized: isApp
       ? "অবৈধ API কী সনাক্ত করা হয়েছে, অনুগ্রহ করে [সেটিংস](/#/settings) পৃষ্ঠায় যান এবং নিশ্চিত করুন যে API কী সঠিকভাবে কনফিগার করা হয়েছে।"
       : "অ্যাক্সেস পাসওয়ার্ড সঠিক নয় বা খালি, অনুগ্রহ করে [লগইন](/#/auth) পৃষ্ঠায় যান এবং সঠিক অ্যাক্সেস পাসওয়ার্ড প্রবেশ করান, অথবা [সেটিংস](/#/settings) পৃষ্ঠায় আপনার OpenAI API কী প্রবেশ করান।",
+  },
+  Aimomnet: {
+    subTitle1: "Subscribe to ChatGPT Plus",
+    subStoreUrl1: AIMOMENT_STORE_EN_PACKAGE,
+    subTitle2: "Buy an API KEY",
+    subStoreUrl2: AIMOMENT_STORE_EN_API,
+    subTitle3: "",
+    subStoreUrl3: "",
+    subTitle4: "",
+    subStoreUrl4: "",
+    subTitle5: "",
+    subStoreUrl5: "",
   },
   Auth: {
     Title: "পাসওয়ার্ড প্রয়োজন",

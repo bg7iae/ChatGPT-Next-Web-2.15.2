@@ -1,6 +1,7 @@
 import { SubmitKey } from "../store/config";
 import type { PartialLocaleType } from "./index";
 import { getClientConfig } from "../config/client";
+import { AIMOMENT_STORE_EN_PACKAGE, AIMOMENT_STORE_EN_API } from "../constant";
 
 const isApp = !!getClientConfig()?.isApp;
 
@@ -10,6 +11,18 @@ const ko: PartialLocaleType = {
     Unauthorized: isApp
       ? "유효하지 않은 API 키가 감지되었습니다. [설정](/#/settings) 페이지에서 API 키가 올바르게 구성되었는지 확인하십시오."
       : "잘못된 접근 비밀번호이거나 비밀번호가 비어 있습니다. [로그인](/#/auth) 페이지에서 올바른 접근 비밀번호를 입력하거나 [설정](/#/settings) 페이지에서 OpenAI API 키를 입력하십시오.",
+  },
+  Aimomnet: {
+    subTitle1: "Subscribe to ChatGPT Plus",
+    subStoreUrl1: AIMOMENT_STORE_EN_PACKAGE,
+    subTitle2: "Buy an API KEY",
+    subStoreUrl2: AIMOMENT_STORE_EN_API,
+    subTitle3: "",
+    subStoreUrl3: "",
+    subTitle4: "",
+    subStoreUrl4: "",
+    subTitle5: "",
+    subStoreUrl5: "",
   },
   Auth: {
     Title: "비밀번호 필요",
