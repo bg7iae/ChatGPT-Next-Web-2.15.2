@@ -2,7 +2,7 @@ import path from "path";
 
 export const OWNER = "bg7iae";
 export const REPO = "ChatGPT-Next-Web-2.15.2";
-export const REPO_URL = `https://www.biggor999.com`;
+export const REPO_URL = `https://github.com/john88188/ai-player`;
 export const AIMOMENT_BASE_URL = "https://www.biggor999.com";
 export const AIMOMENT_STORE = "https://store.biggor999.com";
 
